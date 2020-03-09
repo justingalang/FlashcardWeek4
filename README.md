@@ -4,9 +4,7 @@
 `TODO://` Completed required work for CodePath Week 4. Can use Flashcard and change the contents of the front and back label
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/justingalang/FlashcardWeek4/raw/master/FlashcardWeek4.mov" width=200><br>
 
 ## Required
 - [x] User can open the creation screen
