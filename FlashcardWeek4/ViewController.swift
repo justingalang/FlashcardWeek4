@@ -11,13 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var card: UIView!
-    @IBOutlet weak var frontLabel: UILabel!
     @IBOutlet weak var backLabel: UILabel!
-    
+    @IBOutlet weak var frontLabel: UILabel!
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*
+        
         //card
         card.layer.cornerRadius = 20.0
         card.layer.shadowRadius = 15
@@ -28,21 +28,18 @@ class ViewController: UIViewController {
         backLabel.layer.cornerRadius = 20.0
         frontLabel.clipsToBounds = true
         backLabel.clipsToBounds = true
-        */
  
     }
     
-    
-    func updateFlashcard(question: String, answer: String) {
-        
-    }
-    
     @IBAction func didTapOnFlashcard(_ sender: Any) {
-        if (frontLabel.isHidden == true)
-        {
+        if (frontLabel.isHidden == true){
             frontLabel.isHidden = false
+        } else {
+            frontLabel.isHidden = true
         }
+         
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let navigationController = segue.destination as! UINavigationController
         
@@ -50,7 +47,12 @@ class ViewController: UIViewController {
         
         creationController.flashcardsController = self
     }
-
+    
+    func updateFlashcard(question: String, answer: String) {
+        frontLabel.text = question
+        backLabel.text = answer
+        
+    }
 
 }
 

@@ -37,6 +37,10 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="zUH-P1-nmN" appends="YES" id="85I-sN-Q15"/>
+                                </connections>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRU-xD-NZL">
                                 <rect key="frame" x="171" y="541" width="33" height="76"/>
@@ -51,13 +55,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="zUH-P1-nmN" appends="YES" id="whR-ah-3le"/>
-                        </connections>
                     </view>
                     <connections>
                         <outlet property="backLabel" destination="797-jR-mne" id="zfR-50-Bzz"/>
                         <outlet property="card" destination="cBY-ib-NCc" id="szS-ke-DaF"/>
+                        <outlet property="frontLabel" destination="L5n-5J-Loc" id="Tnq-ZD-k72"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
