@@ -4,7 +4,7 @@
 `TODO://` Completed required work for CodePath Week 4. Can use Flashcard and change the contents of the front and back label
 
 ### App Walk-though
-<img src="https://github.com/justingalang/FlashcardWeek4/raw/master/FlashcardWeek4.mov" width=200><br>
+<img src="https://github.com/justingalang/FlashcardWeek4/raw/master/FlashcardWeek4.gif" width=200><br>
 
 ## Required
 - [x] User can open the creation screen
